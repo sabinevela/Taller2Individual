@@ -23,7 +23,7 @@ export const PaginaDivision = ({ navigation }: Props) => {
   return (
     <View style={styles.container}>
       <Text style={styles.titleBienvenidos}>Bienvenido</Text>
-      <Image source={{ uri: 'https://via.placeholder.com/150' }} style={styles.imageBienvenidos} />
+      <Image source={{ uri: 'https://servisoftcorp.com/wp-content/uploads/2019/02/aplicaciones-moviles-apps-servisoftcorp.com_.jpg' }} style={styles.imageBienvenidos} />
       <Button title="Acceder" onPress={() => navigation.navigate('Division', { num1: 4, num2: 2 })} />
     </View>
   );
